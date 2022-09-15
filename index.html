@@ -13,13 +13,7 @@
   <link rel="stylesheet" type="text/css" href="index.css">
   <script src="index.js"></script>
   
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>yeet</title>
 </head>
 <body>
   <div class="header">
@@ -29,75 +23,228 @@
     </div>
     <div class="form-check form-switch">
       <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" oninput="ToggleTheme()">
-      <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
+      <label class="form-check-label" for="flexSwitchCheckDefault"></label>
     </div>
   </div>
 
   <div class="main">
-    <div class="card-bg" style="background-color: var(--facebook);">
-      <div class="card-content">
-        <div class="platform">
-          <img class="platform-icon" src="images/icon-facebook.svg">
-          <p class="platform-name">@nathanf</p>
+    <div class="followers-cards-section">
+      <div class="card-bg" style="background: var(--facebook);">
+        <div class="card-content">
+          <div class="platform">
+            <img class="platform-icon" src="images/icon-facebook.svg">
+            <p class="platform-name">@nathanf</p>
+          </div>
+  
+          <p class="followers-num">1987</p>
+          <p class="followers">FOLLOWERS</p>
+  
+          <div class="followers-today">
+            <img class="arrow" src="images/icon-up.svg">
+            <p class="followers-today-text">12 Today</p>
+          </div>
         </div>
-
-        <p class="followers-num">1987</p>
-        <p class="followers">FOLLOWERS</p>
-
-        <div class="followers-today">
-          <img class="arrow" src="images/icon-up.svg">
-          <p class="followers-today-text">12 Today</p>
+      </div>
+  
+      <div class="card-bg" style="background: var(--twitter);">
+        <div class="card-content">
+          <div class="platform">
+            <img class="platform-icon" src="images/icon-twitter.svg">
+            <p class="platform-name">@nathanf</p>
+          </div>
+  
+          <p class="followers-num">1044</p>
+          <p class="followers">FOLLOWERS</p>
+  
+          <div class="followers-today">
+            <img class="arrow" src="images/icon-up.svg">
+            <p class="followers-today-text">99 Today</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card-bg" style="background: var(--instagram);">
+        <div class="card-content">
+          <div class="platform">
+            <img class="platform-icon" src="images/icon-twitter.svg">
+            <p class="platform-name">@realnathanf</p>
+          </div>
+  
+          <p class="followers-num">11k</p>
+          <p class="followers">FOLLOWERS</p>
+  
+          <div class="followers-today">
+            <img class="arrow" src="images/icon-up.svg">
+            <p class="followers-today-text">1099 Today</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="card-bg nomargin" style="background: var(--youtube);">
+        <div class="card-content">
+          <div class="platform">
+            <img class="platform-icon" src="images/icon-youtube.svg">
+            <p class="platform-name">@Nathan F.</p>
+          </div>
+  
+          <p class="followers-num">8239</p>
+          <p class="followers">FOLLOWERS</p>
+  
+          <div class="followers-today">
+            <img class="arrow" src="images/icon-down.svg">
+            <p class="followers-today-text negative">144 Today</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="card-bg" style="background-color: var(--twitter);">
-      <div class="card-content">
-        <div class="platform">
-          <img class="platform-icon" src="images/icon-twitter.svg">
-          <p class="platform-name">@nathanf</p>
+    <div class="overview">
+      <p class="overview-title">Overview - Today</p>
+
+      <div class="overview-grid">
+        <div class="overview-pair">
+          <div class="overview-card">
+            <div class="overview-section top right">
+              <p class="overview-card-label">Page Views</p>
+            </div>
+            <div class="overview-section top left">
+              <img class="overview-card-platform" src="images/icon-facebook.svg">
+            </div>
+            <div class="overview-section bottom right">
+              <p class="overview-card-count">87</p>
+            </div>
+            <div class="overview-section bottom left">
+              <div class="overview-card-change">
+                <img class="arrow" src="images/icon-up.svg">
+                <p class="followers-today-text">3%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overview-card">
+            <div class="overview-section top right">
+              <p class="overview-card-label">Likes</p>
+            </div>
+            <div class="overview-section top left">
+              <img class="overview-card-platform" src="images/icon-facebook.svg">
+            </div>
+            <div class="overview-section bottom right">
+              <p class="overview-card-count">52</p>
+            </div>
+            <div class="overview-section bottom left">
+              <div class="overview-card-change">
+                <img class="arrow" src="images/icon-down.svg">
+                <p class="followers-today-text negative">2%</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <p class="followers-num">1044</p>
-        <p class="followers">FOLLOWERS</p>
-
-        <div class="followers-today">
-          <img class="arrow" src="images/icon-up.svg">
-          <p class="followers-today-text">99 Today</p>
+        <div class="overview-pair">
+          <div class="overview-card">
+            <div class="overview-section top right">
+              <p class="overview-card-label">Likes</p>
+            </div>
+            <div class="overview-section top left">
+              <img class="overview-card-platform" src="images/icon-instagram.svg">
+            </div>
+            <div class="overview-section bottom right">
+              <p class="overview-card-count">5462</p>
+            </div>
+            <div class="overview-section bottom left">
+              <div class="overview-card-change">
+                <img class="arrow" src="images/icon-up.svg">
+                <p class="followers-today-text">2257%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overview-card">
+            <div class="overview-section top right">
+              <p class="overview-card-label">Profile Views</p>
+            </div>
+            <div class="overview-section top left">
+              <img class="overview-card-platform" src="images/icon-instagram.svg">
+            </div>
+            <div class="overview-section bottom right">
+              <p class="overview-card-count">52k</p>
+            </div>
+            <div class="overview-section bottom left">
+              <div class="overview-card-change">
+                <img class="arrow" src="images/icon-up.svg">
+                <p class="followers-today-text">1375%</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="card-bg" style="background-color: var(--instagram);">
-      <div class="card-content">
-        <div class="platform">
-          <img class="platform-icon" src="images/icon-twitter.svg">
-          <p class="platform-name">@realnathanf</p>
+        <div class="overview-pair">
+          <div class="overview-card">
+            <div class="overview-section top right">
+              <p class="overview-card-label">Retweets</p>
+            </div>
+            <div class="overview-section top left">
+              <img class="overview-card-platform" src="images/icon-twitter.svg">
+            </div>
+            <div class="overview-section bottom right">
+              <p class="overview-card-count">117</p>
+            </div>
+            <div class="overview-section bottom left">
+              <div class="overview-card-change">
+                <img class="arrow" src="images/icon-up.svg">
+                <p class="followers-today-text">303%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overview-card">
+            <div class="overview-section top right">
+              <p class="overview-card-label">Likes</p>
+            </div>
+            <div class="overview-section top left">
+              <img class="overview-card-platform" src="images/icon-twitter.svg">
+            </div>
+            <div class="overview-section bottom right">
+              <p class="overview-card-count">507</p>
+            </div>
+            <div class="overview-section bottom left">
+              <div class="overview-card-change">
+                <img class="arrow" src="images/icon-up.svg">
+                <p class="followers-today-text">553%</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <p class="followers-num">11k</p>
-        <p class="followers">FOLLOWERS</p>
-
-        <div class="followers-today">
-          <img class="arrow" src="images/icon-up.svg">
-          <p class="followers-today-text">1099 Today</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-bg" style="background-color: var(--youtube);">
-      <div class="card-content">
-        <div class="platform">
-          <img class="platform-icon" src="images/icon-youtube.svg">
-          <p class="platform-name">@Nathan F.</p>
-        </div>
-
-        <p class="followers-num">8239</p>
-        <p class="followers">FOLLOWERS</p>
-
-        <div class="followers-today">
-          <img class="arrow" src="images/icon-down.svg">
-          <p class="followers-today-text negative">144 Today</p>
+        <div class="overview-pair">
+          <div class="overview-card">
+            <div class="overview-section top right">
+              <p class="overview-card-label">Likes</p>
+            </div>
+            <div class="overview-section top left">
+              <img class="overview-card-platform" src="images/icon-youtube.svg">
+            </div>
+            <div class="overview-section bottom right">
+              <p class="overview-card-count">107</p>
+            </div>
+            <div class="overview-section bottom left">
+              <div class="overview-card-change">
+                <img class="arrow" src="images/icon-down.svg">
+                <p class="followers-today-text negative">19%</p>
+              </div>
+            </div>
+          </div>
+          <div class="overview-card">
+            <div class="overview-section top right">
+              <p class="overview-card-label">Total Views</p>
+            </div>
+            <div class="overview-section top left">
+              <img class="overview-card-platform" src="images/icon-youtube.svg">
+            </div>
+            <div class="overview-section bottom right">
+              <p class="overview-card-count">1407</p>
+            </div>
+            <div class="overview-section bottom left">
+              <div class="overview-card-change">
+                <img class="arrow" src="images/icon-down.svg">
+                <p class="followers-today-text negative">12%</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
