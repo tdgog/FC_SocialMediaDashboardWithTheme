@@ -19,4 +19,6 @@ const ToggleTheme = () => {
         docstyle.setProperty('--text-major', 'hsl(0, 0%, 100%)');
         docstyle.setProperty('--text-minor', 'hsl(228, 34%, 66%)');
     }
+
+    document.getElementById('mode-name').innerHTML = lightTheme ? "Light Mode" : "Dark Mode";
 }
